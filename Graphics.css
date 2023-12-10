@@ -25,6 +25,9 @@
         float: left;
     
   }
+  .logo{
+    margin-top: -45px;
+  }
   .nav a{
     font-weight: bold;
     text-decoration: none;
