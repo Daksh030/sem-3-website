@@ -40,3 +40,39 @@
     color: #000;
     border-radius: 70px;
   }
+
+  .top{
+    height: 90vh;
+    background-image: url(Photos/bggraphics.webp);
+    background-size: 100% 100%;
+  }
+
+  .top-text{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+  .text-top{
+    font-size: 40px;
+    color: #fff;
+  }
+  .text-mid{
+    line-height: 24px;
+    margin-top: 70px;
+    width: 400px;
+    color: #fff;
+  }
+  .btn{
+    color: #fff;
+    background-color: #77f11f;
+    margin-top: 25px;
+    width: 120px;
+    height: 35px;
+  }
+  .mid-head{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+  }
