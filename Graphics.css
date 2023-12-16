@@ -5,17 +5,12 @@
 body {
   background-color: #171414;
 }
-/*.container{
-     background-color: #649e00; 
-    height: 6px;
-  }*/
 .head {
   display: flex;
   justify-content: space-around;
   background-color: black;
   height: 70px;
   max-width: 100%;
-  /* justify-content: center; */
   align-items: center;
 }
 .logo img {
@@ -37,14 +32,13 @@ body {
 .nav a:hover {
   background-color: #fff;
   color: #000;
-  border-radius: 70px;
+  border-radius: 15px;
 }
 
 .top {
   height: 90vh;
   background-image: url(Photos/bggraphics.webp);
   background-size: 100% 100%;
-  margin-top: 45px;
 }
 
 .top-text {
@@ -62,14 +56,12 @@ body {
   width: 400px;
   color: #fff;
 }
-.main-btn {
+.btn {
   color: #fff;
   background-color: #77f11f;
   margin-top: 25px;
   width: 120px;
   height: 35px;
-  border: none;
-  border-radius: 5px;
 }
 .mid-head {
   width: 100%;
@@ -88,12 +80,6 @@ body {
   border-radius: 24px;
   box-shadow: 0px 3px 3px 1px #ffffff;
   padding: 10px;
-}
-.profile{
-  width: 70px;
-  height: 70px;
-  margin-top: -25px;
-  border-radius: 50px;
 }
 .card img {
   padding: 20px;
@@ -114,4 +100,7 @@ body {
 }
 .card-bottom p {
   color: #fff;
+}
+.hov a:hover{
+      
 }
