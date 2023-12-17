@@ -106,3 +106,21 @@
   .card-bottom p {
     color: #fff;
   }
+  .show_more{
+    height: 40px;
+    width: 120px; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1100ff;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1200px;
+  }
+
+  .mid1{
+    display: none;
+  }
