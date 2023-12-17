@@ -58,10 +58,11 @@
   }
   .btn {
     color: #fff;
-    background-color: #FF0000;
+    background:none;
     margin-top: 25px;
     width: 120px;
     height: 35px;
+    border-radius: 5px;
     border: 2px solid #FF0000;
   }
   .mid-head {

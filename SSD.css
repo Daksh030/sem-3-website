@@ -63,6 +63,9 @@
     margin-top: 25px;
     width: 120px;
     height: 35px;
+    color: white;
+    border-radius: 5px;
+    background:none;
     border: 2px solid #00B3FF;;
   }
   .mid-head {

@@ -61,6 +61,7 @@ body {
   background-color: #77f11f;
   margin-top: 25px;
   width: 120px;
+  border-radius: 5px;
   height: 35px;
 }
 .mid-head {
