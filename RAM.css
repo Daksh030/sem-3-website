@@ -39,6 +39,7 @@
     height: 90vh;
     background-image: url(Photos/bgram.jpg);
     background-size: 100% 100%;
+    margin-top: 45px;
   }
   
   .top-text {
@@ -105,5 +106,13 @@
   }
   .desc1{
     margin-top: 90px;
+    color: #ffffff;
+  }
+  .desc2{
+    margin-top: 90px;
+    color: #ffffff;
+  }
+  .desc3{
+    margin-top: 90PX;
     color: #ffffff;
   }

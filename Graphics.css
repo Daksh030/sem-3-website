@@ -39,6 +39,7 @@ body {
   height: 90vh;
   background-image: url(Photos/bggraphics.webp);
   background-size: 100% 100%;
+  margin-top: 45px;
 }
 
 .top-text {
@@ -58,11 +59,13 @@ body {
 }
 .btn {
   color: #fff;
-  background-color: #77f11f;
+  /* background-color: #77f11f; */
   margin-top: 25px;
   width: 120px;
   border-radius: 5px;
   height: 35px;
+  border: 2px solid #33FF00;
+  background: none;
 }
 .mid-head {
   width: 100%;

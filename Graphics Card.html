@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="Graphics.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="web.js"></script>
   </head>
   <body>
     <div class="container">
@@ -20,10 +22,11 @@
           ><img src="Photos/text-1697639769113.png" alt=""
         /></a>
       </div>
+      <img src="Photos/download.png" style="width: 70px; height: 50px; margin-top: -25px; border-radius: 50px;" align="right"  alt="">
       <div class="top">
         <div class="top-text">
-          <p class="text-top">Geforce RTX 4090</p>
-          <p class="text-mid ">
+          <p class="text-top" id="first">Geforce RTX 4090</p>
+          <p class="text-mid my">
             NVIDIA® GeForce RTX™ 40 Series GPUs are beyond fast for gamers and
             creators. They're powered by the ultra-efficient NVIDIA Ada Lovelace
             architecture which delivers a quantum leap in both performance and
@@ -32,7 +35,7 @@
             revolutionary new ways to create and unprecedented workflow
             acceleration.
           </p>
-          <button type="submit" class="btn" value="Buy Now">Buy Now</button>
+          <button type="submit" class="btn" id="sec" value="Buy Now">Buy Now</button>
         </div>
       </div>
       <div class="mid">
