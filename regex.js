@@ -42,7 +42,7 @@ function namei() {
 	
 	var lname=document.getElementById('gmail').value
 
-	var numb=/^[0-9A-Za-z@_]+$/
+	var numb=/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/
 	var c=document.getElementById('pass').value
 	var num_length=c.length
 
@@ -64,7 +64,7 @@ function namei() {
 			}
 			}
 			else{
-				alert("enter minimum 8 latter in passworld")
+				alert('Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one digit.');
 				return false
 
 			}
