@@ -1,35 +1,35 @@
-function nam() {
-	var a=/^[A-Za-z0-9]+$/
-	var b=document.getElementById('name').value
-	var fname_length=b.length
+// function nam() {
+// 	var a=/^[A-Za-z0-9]+$/
+// 	var b=document.getElementById('name').value
+// 	var fname_length=b.length
 	
-	var lamao=/^[A-Za-z0-9@_]+$/
-	var lname=document.getElementById('pass1').value
-	var lname_length=lname.length
+// 	var lamao=/^[A-Za-z0-9@_]+$/
+// 	var lname=document.getElementById('pass1').value
+// 	var lname_length=lname.length
 
-	// var numb=/^[0-9]+$/
-	// var c=document.getElementById('pa').value
-	// var num_length=c.length
+// 	// var numb=/^[0-9]+$/
+// 	// var c=document.getElementById('pa').value
+// 	// var num_length=c.length
 
-	if(b.match(a) )
-	{
-		// alert('bye')
-		if(lname.match(lamao) && lname_length>=6 && lname_length<=10)
-		{
-			// alert("okay")
-		}
-		else{
-			alert("enter minimum 8 latter")
-			return false
+// 	if(b.match(a) )
+// 	{
+// 		// alert('bye')
+// 		if(lname.match(lamao) && lname_length>=6 && lname_length<=10)
+// 		{
+// 			// alert("okay")
+// 		}
+// 		else{
+// 			alert("enter minimum 8 latter")
+// 			return false
 
-		}
-	}
-	else{
-		alert("enter username")
-		return false
+// 		}
+// 	}
+// 	else{
+// 		alert("enter username")
+// 		return false
 
-	}
-}
+// 	}
+// }
 
 function namei() {
 	var a=/^[A-Za-z0-9]+$/
@@ -102,6 +102,29 @@ function namei() {
       }
 
       // Additional custom validation can be added as needed
+
+      return true;
+    }
+	
+    function nam() {
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('pass').value;
+
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+
+      if (!emailRegex.test(email)) {
+        alert('Please enter a valid email address');
+        return false;
+      }
+
+      if (!passwordRegex.test(password)) {
+        alert('Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one digit.');
+        return false;
+      }
+
+     
 
       return true;
     }
