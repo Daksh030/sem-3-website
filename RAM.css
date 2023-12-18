@@ -57,7 +57,10 @@
     width: 400px;
     color: #fff;
   }
-  .btn {
+  .my{
+    display: none;
+  }
+  .btn3{
     color: #fff;
     background:none;
     margin-top: 25px;
@@ -65,6 +68,9 @@
     height: 35px;
     border-radius: 5px;
     border: 2px solid #FF0000;
+  }
+  .btn3:hover{
+    background-color:#FF0000 ;
   }
   .mid-head {
     width: 100%;
@@ -115,4 +121,21 @@
   .desc3{
     margin-top: 90PX;
     color: #ffffff;
+  }
+  .show_more{
+    height: 40px;
+    width: 120px; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF0000;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1200px;
+  }
+  .mid1{
+    display: none;
   }

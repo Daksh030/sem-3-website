@@ -3,7 +3,10 @@
   <head>
     <link rel="stylesheet" href="Graphics.css" />
     <link rel="stylesheet" href="Contact us.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="regex.js"></script>
     <title>Sign up</title>
+  
   </head>
   <body>
     <div class="container">
@@ -27,12 +30,12 @@
    <div class="s1">
       <div class="second1">
       <div class="img1"><img src="Photos/text-1697639769113.png"style="width: 250px; height: 40px;"alt="" /></div>
-      <form class="inp">
-        <input class="inp1" type="text" placeholder="Full Name">
-        <input class="inp1" type="text"placeholder="Email">
-        <input class="inp2" type="text"placeholder="Message">
+      <form class="inp" onsubmit="return con1()" method="get">
+        <input class="inp1" id="fullName" type="text" placeholder="Full Name">
+        <input class="inp1" id="email" type="text"placeholder="Email">
+        <input class="inp2" id="message" type="text"placeholder="Message">
+        <input class="btn3" type="submit" value="Submit"><br><br>
       </form><br>
-      <input class="btn3" type="button" value="Submit"><br><br>
     </div>  
  
   <div class="s2">

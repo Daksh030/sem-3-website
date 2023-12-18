@@ -43,7 +43,7 @@
 }
 .second img{
      padding:30px 30px;
-     width: 80%;
+     width: 85%;
 }
 .forget{
      color:white;
@@ -54,7 +54,7 @@
      margin-left: 140px;
      width: 100%;  
 } 
-.btn2{
+.btn4{
      display: block;
      color: white;
      background-color: rgb(255, 183, 0);
@@ -63,8 +63,9 @@
      margin-left: 40px;
      font-size: larger;
      border: none;
+     margin-top: 50px;
 }
-.btn2:hover{
+.btn4:hover{
      background-color: rgba(132, 99, 15, 0.454);
 }
 .end{

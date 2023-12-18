@@ -57,6 +57,9 @@
     width: 400px;
     color: #fff;
   }
+  .my{
+    display: none;
+  }
   .btn1{
     /* color: #ffffff; */
     /* background-color: #00B3FF; */

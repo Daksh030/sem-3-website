@@ -57,7 +57,10 @@ body {
   width: 400px;
   color: #fff;
 }
-.btn {
+.my{
+  display: none;
+}
+.btn2{
   color: #fff;
   /* background-color: #77f11f; */
   margin-top: 25px;
@@ -66,6 +69,9 @@ body {
   height: 35px;
   border: 2px solid #33FF00;
   background: none;
+}
+.btn2:hover{
+    background-color: #33FF00;
 }
 .mid-head {
   width: 100%;
@@ -104,4 +110,22 @@ body {
 }
 .card-bottom p {
   color: #fff;
+}
+.show_more{
+  height: 40px;
+  width: 120px; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #33FF00;
+  font-size: large;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-left: 1200px;
+}
+
+.mid1{
+  display: none;
 }

@@ -60,15 +60,28 @@
      background-color: rgb(255, 183, 0);
      border-radius: 24px;
      padding: 10px 80px;
-     margin-left: 40px;
+     margin-left: 5px;
      font-size: larger;
      border: none;
+     margin-top: 50px;
 }
 .btn1:hover{
-     background-color: rgb(0, 4, 255)
+     background-color: rgba(132, 99, 15, 0.454);
 }
 .end{
      color: white;
      font-size: large;
      margin-left: 40px;
+}
+span{
+     color: #ffffff;
+}
+.pa{
+ color: rgb(255, 208, 0);
+font-size: 19px;
+} 
+.pa1{
+     margin-left: 100px;
+
+    
 }

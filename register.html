@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" href="Graphics.css"/>
     <link rel="stylesheet" href="regisetr.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="regex.js"></script>
     <title>Sign up</title>
   </head>
   <body>
@@ -30,14 +32,14 @@
           <div class="second">
             <div><img src="Photos/text-1697639769113.png" alt="" /></div>
           </div>
-          <form class="user-form">
-            <input class="data" type="text" placeholder="Name">
-            <input style="padding-top: 30px;" class="data" type="text" placeholder="email">
-            <input style="padding-top: 30px;" class="data" type="text" placeholder="Password">
-            <input style="padding-top: 30px;" class="data" type="text" placeholder="Comfirm Password">
+          <form class="first" onsubmit="return namei()" method="get">
+            <input class="data" id="use" type="text" placeholder="Name" >
+            <input style="padding-top: 30px;" class="data" id="gmail" type="text" placeholder="Email" >
+            <input style="padding-top: 30px;" class="data" id="pass" type="text" placeholder="Password" >
+            <input style="padding-top: 30px;" class="data" id="cpass" type="text" placeholder="Comfirm Password" >
+            <button class="btn4" type="submit" value="Sign up">Sign up</button>
           </form><br>
           <!-- <label class="forget">Forget Password</label><br><br> -->
-          <input class="btn2" type="button" value="Sign up"><br><br>
           <label class="end"> have an account? <a href="Sign up.html" style="color: rgb(188, 188, 188);">Sign in</a></label>
         </div>
       </div>
